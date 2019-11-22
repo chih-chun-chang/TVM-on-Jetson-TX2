@@ -1,2 +1,5 @@
 # TVM-on-Jetson-TX2
-Install TVM and it's dependency on Nvidia Jetson TX2
+Install TVM and the dependencies on Nvidia Jetson TX2
+* Flash TX2 (with CUDA10.0, cuDNN7.0, TensorRT5)
+* LLVM binary
+* TVM setup
