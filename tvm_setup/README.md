@@ -13,7 +13,7 @@ This is my building steps of TVM and I'll provide my .bashrc and config.cmake fo
 `cp cmake/config.cmake build`</br>
 `vim build/config.cmake`
     * Change `set(USE_CUDA OFF)` to `set(USE_CUDA ON)` to enable CUDA backend 
-    * Change `set(USE_LLVM OFF)` to `set(USE_LLVM /path/to/your/llvm/bin/llvm-config)` (notice: absolute PATH is preferable)
+    * Change `set(USE_LLVM OFF)` to `set(USE_LLVM /path/to/your/llvm/bin/llvm-config)` (notice: absolute PATH is recommended)
 4. Build </br>
 `cd build`</br>
 `cmake ..`</br>
